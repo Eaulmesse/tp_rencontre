@@ -13,7 +13,10 @@ class User
 
     public function __construct($nom,$prenom,$mail,$departement)
     {
+        $this->nom = $nom;
+        $this->prenom = $prenom;
         $this->mail = $mail;
+        $this->departement = $departement;
     }
 
     /**
